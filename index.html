@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Repare Anti-Covid</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #b3eeeb;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 16px;
+            text-align: justify-all;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        table,
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        table {
+            border-spacing: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://github.com/mireilledev/RepareAntiCovid"><img loading="lazy" width="149" height="149"
+            src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149"
+            class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    <div id="main">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <img src="https://www.mireille.co/static/media/titleIllusPurple.d0f24fd4.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://apps.apple.com/fr/app/mireille/id1297199609" target="_blank"><img
+                            class="Home_storeCTA__3uqQK" src="img/appStoreCTA.1c22297f.png" alt="" height="50"></a>
+                </td>
+                <td>
+                    <a href="https://play.google.com/store/apps/details?id=com.kahalex.composcan&hl=fr&gl=US"
+                        target="_blank"><img class="Home_storeCTA__3uqQK" src="img/playStoreCTA.a2407a33.png" alt=""
+                            height="50"></a>
+                </td>
+            </tr>
+        </table>
+
+
+        <h3>Réparons les qrcodes de Anti-Covid avec Mireille.</h3><br />
+        Que faire si votre qrcode est illisible ?<br />
+        Sur votre feuille de vaccination vous avez deux code-barres.<br />
+        <table>
+            <tr>
+                <td>
+                    Un <b>semacode (data-matrix)</b> à gauche
+                </td>
+                <td>
+                    Un qrcode à droite
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/semacode_datamatrix.png" width="200" height="200">
+                </td>
+                <td>
+                    <img src="img/qrcode.png" width="100" height="100">
+                </td>
+            </tr>
+        </table>
+
+        Pour des raisons d'impression, il peut arriver que le qrcode soit illisible.<br />
+
+
+        Pour résoudre cela, scannez le contenu du <b>semacode (data-matrix)</b> avec une application de scan de code barre.<br />
+        Par exemple google lens (<a href="https://play.google.com/store/apps/details?id=com.google.ar.lens&hl=fr&gl=US"
+            target="_blank">android</a> ou <a href="https://lens.google.com/" target="_blank">ios</a>)
+
+        <br />
+        Puis copiez le résultat dans le champs ci dessous.<br />
+
+
+        <img id="qrcode_covid" src=""><br />
+        <textarea id="semacode_covid" name="semacode_covid" rows="10" cols="100">
+</textarea>
+        <br />
+        Enfin vous aurez un qrcode a scanner sur l'application Anti-Covid tout neuf, tout beau.<br />
+<a href="https://deno.land/"> fait avec deno : <img src="img/Deno.svg" height="50"/></a><br/>
+    </div>
+    <script src="js/repare.js"></script><br/>
+    V 1.02
+</body>
+
+</html>
+
