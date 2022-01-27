@@ -5,7 +5,7 @@ Accessible en ligne ici : [https://mireilledev.github.io/RepareAntiCovid/](https
 
 Petite page web et script fait avec [deno](https://deno.land/).<a href="https://deno.land/"><img src="https://mireilledev.github.io/RepareAntiCovid/img/Deno.svg" width="50" style="vertical-align: middle;"></a>
 
-Si vous voulez faire un don : <a href="https://github.com/sponsors/mireilledev?o=esb"><img src="https://mireilledev.github.io/RepareAntiCovid/img/donate-svgrepo-com.svg" width="50" style="vertical-align: middle;"></a>
+
 
 
 Pour corriger les qrcodes illisibles de Anti-Covid.
